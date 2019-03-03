@@ -14,7 +14,7 @@ for i in range(2,len(string)+1):
         t="".join(p)
         permut.append(t)
 set(permut)
-print("Output:")
+print("Output for ishika:")
 for i in permut:
     if i in all_words:
         if(len(i)==2):
